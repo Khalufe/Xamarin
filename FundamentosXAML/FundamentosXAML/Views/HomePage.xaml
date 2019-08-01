@@ -6,26 +6,39 @@
              mc:Ignorable="d"
              x:Class="FundamentosXAML.Views.HomePage">
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Label HorizontalOptions="Center" Text="Bienvenidos"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <StackLayout Orientation="Vertical">
-                    <Label Text="Here is a button"/>
-                    <Button Text="Click me!"
-                               HorizontalOptions="Center"
-                            />
+        <StackLayout BackgroundColor="#127ac7">
+            <StackLayout HorizontalOptions="Fill"
+                     VerticalOptions="CenterAndExpand">
+                <StackLayout Padding="0">
+                    <Label Text="Welcome to Xamarin"
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    HorizontalOptions="Center" />
                 </StackLayout>
-                <StackLayout Orientation="Vertical">
-                    <Label Text="Here is entry"/>
-                    <Entry Text="I am an Entry" />
-                </StackLayout>
-                <StackLayout Orientation="Vertical">
 
-                    <Entry Text="I am an Entry" />
+                <StackLayout Padding="20, 10">
+                    <Label Text="Croos - platform apps made easy"
+                   FontSize="18"
+                   TextColor="White"
+                       LineBreakMode="WordWrap"
+                   HorizontalOptions="CenterAndExpand"/>
                 </StackLayout>
+
+                <StackLayout Padding="0, 0, 0, 10">
+                    <Button BackgroundColor="#1dabf0"
+                    Text="Login"
+                    TextColor="White"
+                    Clicked="Button_Clicked" />
+                </StackLayout>
+
+                <StackLayout>
+                    <Button BackgroundColor="#1dabf0"
+                    Text="Register"
+                    TextColor="White" />
+                </StackLayout>
+
             </StackLayout>
-        </StackLayout>
+        </StackLayout >
     </ContentPage.Content>
 </ContentPage>
