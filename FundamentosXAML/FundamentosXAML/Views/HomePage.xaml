@@ -25,12 +25,7 @@
                    HorizontalOptions="CenterAndExpand"/>
                 </StackLayout>
 
-                <StackLayout Padding="0, 0, 0, 10">
-                    <Button BackgroundColor="#1dabf0"
-                    Text="Login"
-                    TextColor="White"
-                    Clicked="Button_Clicked" />
-                </StackLayout>
+                
 
                 <StackLayout>
                     <Button BackgroundColor="#1dabf0"
